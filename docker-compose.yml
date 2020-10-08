@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+    app:
+        build: .
+        image: 'cdfn/rustlist'
+        restart: 'always'
+        environment: 
+            MODE: 'dev' # prod - production, dev - development
+    database:
+        image: mongo
+        restart: 'always'
+        environment: # After successful setup make sure to remove variables below.
+            MONGO_INITDB_ROOT_USERNAME: root
+            MONGO_INITDB_ROOT_PASSWORD: example
