@@ -1,0 +1,12 @@
+{
+  "name": "rustlist",
+  "version": "1.0.0",
+  "description": "List for rust servers",
+  "main": "index.js",
+  "repository": "https://github.com/CDFN/rustlist",
+  "author": "CDFN",
+  "license": "GNU GPLv3",
+  "dependencies": {
+    "source-server-query": "^1.0.1"
+  }
+}
