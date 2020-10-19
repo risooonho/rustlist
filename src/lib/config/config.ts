@@ -1,5 +1,0 @@
-interface IConfiguration {
-
-}
-
-export { IConfiguration };
