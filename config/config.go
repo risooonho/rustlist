@@ -10,6 +10,11 @@ import (
 var Config config
 
 type config struct {
+	App appConfig
+}
+
+type appConfig struct {
+	Addr string
 }
 
 func LoadConfig(path string) {
